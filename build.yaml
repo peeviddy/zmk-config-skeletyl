@@ -24,4 +24,4 @@ include:
   - board: seeeduino_xiao_ble
     shield: skeletyl_right
   - board: seeeduino_xiao_ble
-    shield: skeletyl_dongle_prospector_adapter
+    shield: skeletyl_dongle prospector_adapter

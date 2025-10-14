@@ -1,0 +1,17 @@
+if SHIELD_SKELETYL_LEFT
+
+# Max 16 characters in keyboard name
+config ZMK_KEYBOARD_NAME
+    default "Skeletyl-BT"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SKELETYL_LEFT || SHIELD_SKELETYL_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
